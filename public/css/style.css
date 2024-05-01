@@ -1,4 +1,6 @@
 /* CSS for the header */
+
+@media screen and (max-width: 768px){
 header {
     display: flex;
     justify-content: space-between;
@@ -105,4 +107,5 @@ text-align: center;
 }
 main{
     margin-bottom: 300px;
+}
 }
