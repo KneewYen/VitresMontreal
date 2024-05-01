@@ -1,0 +1,36 @@
+/* CSS for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #3498db; /* Set background color for the header */
+    color: white; /* Set font color */
+}
+
+/* CSS for the logo */
+#logo img {
+    height: 100px; /* Set the height of the logo */
+}
+
+/* CSS for the navigation bar */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Display list items inline */
+    margin-right: 20px; /* Add spacing between list items */
+}
+
+nav ul li a {
+    color: white; /* Set font color */
+    text-decoration: none; /* Remove underline */
+    padding: 20px;
+}
+
+nav ul li.active {
+    font-weight: bold; /* Set font weight for active link */
+}
